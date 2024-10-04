@@ -9,11 +9,11 @@ public class MyLine {
         this.end = end;
     }
 
-    public Mypoint getBegin() {
+    public MyPoint getBegin() {
         return begin;
     }
 
-    public Mypoint getEnd() {
+    public MyPoint getEnd() {
         return end;
     }
 
