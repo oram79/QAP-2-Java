@@ -15,7 +15,13 @@ public class MyRectangle {
     public double getHeight() {
         return Math.abs(bottomRight.getY() - topLeft.getY());
     }
-    
+    public double getArea() {
+        return getWidth() * getHeight();
+    }
+
+    public String toString() {
+        return "Rectangle Left: " + topLeft + "Rectangle Right: " + bottomRight;
+    }
 }
 
 
