@@ -7,6 +7,7 @@ public class MyRectangle {
 
     public MyRectangle(MyPoint topLeft , MyPoint bottomRight) {
         this.topLeft = topLeft;
+        this.bottomRight = bottomRight;
     }
 
     public double getWidth() {
@@ -20,7 +21,7 @@ public class MyRectangle {
     }
 
     public String toString() {
-        return "Rectangle Left: " + topLeft + "Rectangle Right: " + bottomRight;
+        return "Rectangle Left: " + topLeft + " Rectangle Right: " + bottomRight;
     }
 }
 

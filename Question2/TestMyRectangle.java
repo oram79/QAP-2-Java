@@ -10,6 +10,6 @@ public class TestMyRectangle {
         MyRectangle rectangle = new MyRectangle(topLeft, bottomRight);
 
         System.out.println(rectangle);
-        System.out.println(" The Area is: " + rectangle.getArea());
+        System.out.println("The Area is: " + rectangle.getArea());
     }
 }
